@@ -1,0 +1,410 @@
+#body{
+    background-color:  #000;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-color:  #000;
+    color: white;
+}
+.logo{
+    width: 100px;
+    padding-top: 10px;
+}
+
+.nav-item > img{
+    margin-left: 230px;
+}
+.nav-item > button{
+    border: none;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    transition-duration: 0.2s;
+    margin-right: 20px;
+}
+#nav-btn{
+    margin-right: 20px;
+    border: none;
+}
+#search-btn{
+    margin-right: 20px;
+}
+#navBarSearchForm input[type=search]{
+    width:300px !important;
+    background-color: rgb(51, 55, 61);
+}
+
+/* main-content */
+
+header{
+    position: relative;
+    min-width: 320px;
+    height: 680px;
+    overflow: hidden;
+}
+header > img{
+    float: right;
+    width: 950px;
+    -webkit-mask-image: linear-gradient(to left, #000, rgba(0,0,0,0.06));
+    mask-image: linear-gradient(to left, #000, rgba(0,0,0,0.06));
+}
+.text-over-image{
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    top: 58%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+}
+.text-over-image > h1{
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 50px;
+    padding: 20px 0;
+}
+.text-over-image > p{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 300;
+}
+.text-over-image > button{
+    width: 280px;
+    background-color: #0f79af;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 14px 22px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.favChannels{
+   width: 550px;
+    margin: 30px 20px;
+}
+.favChannels > h1{
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.favChannels > p{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 25px;
+}
+.channelBtn{
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.channelBtn img{
+    width: 194px;
+    height: 134px;
+    margin: 5px;
+}
+.channelBtn img:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 8px #fff, -3px -3px -8px #fff;
+}
+
+.fire-tv-header{
+    position: relative;
+    min-width: 320px;
+    height: 680px;
+    overflow: hidden;
+}
+.fire-over-image{
+    width: 45%;
+    height: 100%;
+    margin-top: 110px;
+    margin-left: 70px;
+}
+.fire-head{
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.fire-para{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 800px;
+}
+.fire-over-image > button{
+    width: 280px;
+    background-color: #0f79af;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 14px 22px;
+    margin-top: 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.membership-header{
+    position: relative;
+    min-width: 320px;
+    height: 680px;
+    overflow: hidden;
+    color: #fff;
+}
+#membership-div{
+    width: 45%;
+    height: 100%;
+    position: absolute; 
+}
+.membership-head{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 110px;
+    margin-left: 70px;
+}
+.membership-para{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 660px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.membership-btn{
+    width: 280px;
+    background-color: #0f79af;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 14px 22px;
+    margin-top: 15px;
+    margin-left: 70px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer{
+    background-color: #191919;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo > div{
+    text-align: center;
+    padding-bottom: 5px;
+}
+#footer-image{
+    width: 110px;
+    height: 35px;
+    object-fit: contain;
+    text-align: center;
+}
+#copyright{
+    display: flex;
+    margin: 2px 3px;
+    opacity: 0.7;
+}
+#copyright > p{
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+#copyright > p > a{
+    color: #0f79af;
+    font-size: 15px;
+}
+.copy{
+    color: #949494;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+
+
+/*------ media queries for small screen ---------*/
+
+@media only screen and (max-width: 1270px){
+    .favChannels > h1{
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+    .favChannels > p{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        margin-top: 25px;
+    }
+    .channelBtn img{
+        width: 150px;
+        height: 110px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .favChannels > h1{
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+    .favChannels > p{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 30px;
+        margin-top: 25px;
+    }
+    .channelBtn img{
+        width: 150px;
+        height: 110px;
+        margin: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 750px){
+    header > img{
+        width: 100%;
+        height: 400px;
+        float: none;
+    }
+    .text-over-image{
+        width: 100%;
+        text-align: center;
+        margin-left: 150px;
+        margin-top: 250px;
+    }
+    .text-over-image > button{
+        width: 100%;
+        margin-left: 10px;
+    }
+    #text-over-image{
+        margin-top: 320px;
+    }
+    .favChannels{
+        width: 80%;
+        position: absolute;
+
+    }
+    .favChannels > h1{
+        font-size: 45px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+    .favChannels > p{
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 30px;
+        margin-top: 25px;
+    }
+    .channelBtn{
+        position: relative;
+        margin-top: 250px;
+        margin-left: 50px;
+    }
+    .fire-head{
+        margin-top: -150px;
+    }
+    .fire-para{
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 28px;
+        width: 600px;
+    }
+    .membership-head{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        margin-top: -110px;
+        margin-left: 70px;
+    }
+    .membership-para{
+        width: 400px;
+    }
+    
+
+    
+}
+
+@media only screen and (max-width: 679px){
+    .channelBtn{
+        position: relative;
+        margin-top: 300px;
+        margin-left: 40px;
+    }
+    .fire-head{
+        margin-top: -250px;
+    }
+    .fire-para{
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 28px;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .channelBtn{
+        position: relative;
+        margin-top: 350px;
+        margin-left: 50px;
+    }
+    .fire-head{
+        margin-top: -250px;
+    }
+    .fire-para{
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 28px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .channelBtn{
+        position: relative;
+        margin-top: 400px;
+        margin-left: 50px;
+    }
+    .text-over-image > h1{
+        font-size: 44px;
+        font-weight: 400;
+        line-height: 50px;
+        padding: 20px 0;
+        width: 70%;
+    }
+    .text-over-image > P{
+        width: 70%;
+    }
+    .text-over-image > button{
+        width: 70%;
+        margin-left: -85px;
+    }
+    .membership-head{
+        width: 70%;
+    }
+    .membership-para{
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 28px;
+        width: 150%;
+    }
+    .membership-btn{
+        margin-top: -20px;
+    }
+}

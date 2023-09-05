@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Registration</title>
+    <link rel="stylesheet" href="signUp.css">
+    <script>
+        src="https://kit.fontawesome.com/7edaac5171.js"
+        crossorigin="anonymous"
+    </script>
+
+</head>
+<body>
+    <div id="container">
+        <img src="../images/AV_Logo_150._CB430404026_.png" alt="main-logo">
+    
+
+
+    <!-- warning -->
+    <header class="errorBox">
+        <div class="error">
+            <p>
+                <i class="fas fa-exlamation-triangle" style="font-size: 25px; color: #c40000;"></i>
+            </p>
+
+            <span>
+                <h4>There was a problem</h4>
+                <ul class="errorList">
+                    <li class="nameErr">
+                        <i class="fa fa-circle" style="font-size: 5px; color: #000;"></i>
+                        <span class="list">Enter your name</span>
+                    </li>
+                    <li class="emailErr">
+                        <i class="fa fa-circle" style="font-size: 5px; color: #000;"></i>
+                        <span class="list">Enter your email</span>
+                    </li>
+                    <li class="passErr">
+                        <i class="fa fa-circle" style="font-size: 5px; color: #000;"></i>
+                        <span class="list">Enter your password</span>
+                    </li>
+                    <li class="passShortErr">
+                        <i class="fa fa-circle" style="font-size: 5px; color: #000;"></i>
+                        <span class="list">Password is too short</span>
+                    </li>
+                    <li class="rePassErr">
+                        <i class="fa fa-circle" style="font-size: 5px; color: #000;"></i>
+                        <span class="list">Password must match</span>
+                    </li>
+                </ul>
+            </span>
+        </div>
+    </header>
+
+
+    <!-- SignUp -->
+
+    <div class="signUpBox">
+        <h1>Create Account  </h1>
+        <div class="inputName">
+            <label for="name" class="inputText">Your name</label>
+            <input type="text" name="name" id="name" class="data">
+        </div>
+        <div class="inputEmail">
+            <label for="email" class="inputText">Email or Phone number</label>
+            <input type="text" name="email" id="email" class="data">
+        </div>
+        <div class="inputPassword">
+            <div class="passLabel">
+                <label for="Password" class="inputText">Password</label>
+            </div>
+            <input type="password" name="password" class="data" id="password" placeholder="At least 6 character">
+        </div>
+        <p class="warn">
+            <span><i>i</i></span> password must be At least 6 characters
+        </p>
+
+        <div class="inputPassword">
+            <div class="passLabel">
+                <label for="Password" class="inputText">Re-enter Password</label>
+            </div>
+            <input type="password" name="password" class="data" id="reEnterPass">
+        </div>
+        <div class="btn">
+            <button type="submit" class="signUpBtn">
+                Create Your Amazon Account
+            </button>
+        </div>
+
+        <div class="terms">
+            <p>By creating an account, you agree to the Amazon
+                <a href="">Condition of Use and Privacy Notice</a>
+            </p>
+        </div>
+
+        <div class="keepSignIn">
+            <label for="">
+                Already have an account? <a onclick="signinPage()">Sign in</a><i class="fas fa-caret-right"></i></label>
+        </div>
+    </div>
+</div>
+    <!-- /signUp-->
+
+    <!-- footer -->
+
+    <footer>
+        <div class="footer">
+            <div class="terms">
+                <p><a href="">Terms and Privacy Notice</a></p>
+                <p><a href="">Send us feedback</a></p>
+                <p><a href="">Help</a></p>
+            </div>
+            <div class="copyright">
+                <p class="copy">© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- /footer -->
+
+
+
+
+
+    <script src="signUp.js"></script>
+</body>
+</html>
