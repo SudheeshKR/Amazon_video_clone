@@ -179,3 +179,139 @@ i{
     color: grey;
     margin: 5px 0;
 }
+
+
+@media(max-width: 376px){
+    .signUpBox{
+        border: 1px solid #ddd;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 5px;
+        width: 74%;
+        padding: 10px 25px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .errorBox{
+        width: 74%;
+        display: none;
+    }
+    
+}
+
+@media(max-width: 415px){
+    .signUpBox{
+        border: 1px solid #ddd;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 5px;
+        width: 74%;
+        padding: 10px 25px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .errorBox{
+        width: 74%;
+        display: none;
+    }
+    
+}
+@media(max-width: 361px){
+    .signUpBox{
+        border: 1px solid #ddd;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 5px;
+        width: 84%;
+        padding: 10px 25px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .errorBox{
+        width: 84%;
+        display: none;
+    }
+    
+}
+@media(max-width: 821px){
+    .signUpBox{
+        border: 1px solid #ddd;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 5px;
+        width: 54%;
+        padding: 10px 25px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .errorBox{
+        width: 54%;
+        display: none;
+    }
+    
+}
+@media(max-width: 913px){
+    .signUpBox{
+        border: 1px solid #ddd;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 5px;
+        width: 54%;
+        padding: 10px 25px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .errorBox{
+        width: 54%;
+        display: none;
+    }
+    
+}
+@media(max-width: 281px){
+    .signUpBox{
+        border: 1px solid #ddd;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 5px;
+        width: 90%;
+        padding: 10px 25px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .errorBox{
+        width: 90%;
+        display: none;
+    }
+    
+}
+@media(max-width: 413px){
+    .signUpBox{
+        border: 1px solid #ddd;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 5px;
+        width: 84%;
+        padding: 10px 25px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .errorBox{
+        width: 84%;
+        display: none;
+    }
+    
+}

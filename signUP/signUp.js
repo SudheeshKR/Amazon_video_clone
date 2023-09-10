@@ -2,7 +2,7 @@ function signinPage() {
     window.location.href = "/signIn/signIn.html";
 }
 
-///
+//
 var createAccBtn = document.querySelector(".signUpBtn");
 
 var loginInfo = JSON.parse(localStorage.getItem("loginInfo")) || [];
